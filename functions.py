@@ -1,3 +1,4 @@
 def square(x):
     return x * x
-print(square(8))
+for i in range(10):
+    print(f"Thew square of {i} is {square(i)}")
